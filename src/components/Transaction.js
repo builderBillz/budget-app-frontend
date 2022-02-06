@@ -7,10 +7,7 @@ function Transaction({ transaction, index }) {
     
     <tr>
         <td> {transaction.date}</td>
-        <td>
-            <a href={`/transactions/${index}`} rel="from">
-            {transaction.from}
-            </a>
+        <td><Link to={`/transactions/${index}`}>{transaction.from}</Link>
         </td>
         <td>{transaction.amount}</td>
         <td>{transaction.source}</td>
