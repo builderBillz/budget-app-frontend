@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100px;
+  align-content: center;
+  background-color: darkgreen;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home {
+  text-align: center;
 }
+
+.navButton{
+  background-color: khaki;
+}
+
+body{
+  background-color: khaki;
+  height: 100vh;
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: rgb(18, 131, 18);
+  /* height: 10vh; */
+}
+
+table{
+  width: 100vh;
+  height:100vh;
+}
+
+.detailsTable{
+  width: 100vh;
+  height: 10vh;
+}
+
+.detailsTable tr{
+height: 10%;
+}
+
+.detailsTable th{
+  height: 1vh;
+}
+
+.transactionButton{
+
+background-color: rgb(18, 131, 18) ;
+}
+
+
