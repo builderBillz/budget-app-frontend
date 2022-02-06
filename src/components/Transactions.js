@@ -28,7 +28,7 @@ function Transactions() {
         
         <div className="transactions">
           <div>
-            <h1>Balance: ${total} </h1>
+            <h3>Balance: ${total} </h3>
           </div>
           <table>
             <tbody>

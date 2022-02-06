@@ -4,7 +4,7 @@ import Transactions from "../components/Transactions";
 function Index() {
     return (
       <div className="Index">
-        <h2>All Transactions</h2>
+        <h1>All Transactions</h1>
         <Transactions />
       </div>
     );
