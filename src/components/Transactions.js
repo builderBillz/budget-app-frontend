@@ -17,7 +17,7 @@ function Transactions() {
             setTransactions(response.data);
           })
           .catch((error) => console.log("catch", error));
-      }, []);
+      }, [URL]);
 
       const allAmounts = transactions.map((transaction) => transaction.amount);
       const total= allAmounts.reduce((prev,cur) =>Number(prev) + Number(cur),0); 

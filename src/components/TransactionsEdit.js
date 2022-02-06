@@ -23,7 +23,7 @@ function TransactionsEdit() {
         setTransaction(response.data);
       })
       .catch((error) => console.log("catch", error));
-  }, []);
+  }, [URL,id]);
 
   const handleTextChange = (event) => {
     setTransaction({ ...transaction, [event.target.id]: event.target.value });
