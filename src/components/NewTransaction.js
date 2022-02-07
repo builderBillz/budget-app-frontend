@@ -19,7 +19,7 @@ function NewTransaction() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post(`${URL}/transactions`, transaction).then(() => {
+    axios.post(`${URL}/transactions`,transaction).then(() => {
       navigate("/transactions");
     });
   };
@@ -36,7 +36,7 @@ function NewTransaction() {
         <input
           id="date"
           value={transaction.date}
-          type="text"
+          type="date"
           onChange={handleTextChange}
           required
         />

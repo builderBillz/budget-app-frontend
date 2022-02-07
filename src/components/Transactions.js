@@ -13,7 +13,7 @@ function Transactions() {
         axios
           .get(`${URL}/transactions`)
           .then((response) => {
-              console.log(response.data)
+              console.log(URL)
             setTransactions(response.data);
           })
           .catch((error) => console.log("catch", error));

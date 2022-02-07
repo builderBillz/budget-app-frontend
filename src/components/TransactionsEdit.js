@@ -50,7 +50,7 @@ return (
         <input
           id="date"
           value={transaction.date}
-          type="text"
+          type="date"
           onChange={handleTextChange}
           required
         />
